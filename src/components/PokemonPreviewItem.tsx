@@ -7,7 +7,7 @@ const PokemonPreviewItem: React.FC<{pokemon : Pokemon}> = ({pokemon}) =>{
         <IonItem>
             <IonLabel>
                 <h2>{pokemon.name}</h2>
-                <p>{pokemon.url}</p>
+                
                 <IonButton>See More</IonButton>
             </IonLabel>
         </IonItem>

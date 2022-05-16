@@ -6,13 +6,13 @@ const PokemonItem: React.FC<{pokemon : Pokemon}> = ({pokemon}) =>{
     return(
         <IonItem>
             <IonAvatar slot="start">
-                <img src={pokemon.frontSprite} />
+                <img src="" />
             </IonAvatar>
             <IonLabel>
                 <h2>{pokemon.name}</h2>
-                <p>{pokemon.type}</p>
+                
                 <b>Shiny Version</b>
-                <img src={pokemon.shinySprite} />
+                <img src="" />
             </IonLabel>
         </IonItem>
     );
